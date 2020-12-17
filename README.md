@@ -10,7 +10,7 @@ Steps to reproduce:
 2. Add dependency:
 ```
 dependencies {
-    implementation "com.google.android.gms:play-services-maps:16.1.0"
+    implementation "com.google.android.gms:play-services-maps:17.0.0"
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.5'
 ...
 }
