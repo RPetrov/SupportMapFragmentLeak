@@ -170,3 +170,6 @@ Heap dump duration: 3831 ms
 
 
 ```
+
+see also:
+https://github.com/square/leakcanary/issues/2024
