@@ -7,6 +7,7 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
+
     defaultConfig {
         applicationId "com.example.supportmapfragmentleak"
         minSdkVersion 16
@@ -15,6 +16,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -33,7 +36,7 @@ android {
 }
 
 dependencies {
-    implementation "com.google.android.gms:play-services-maps:17.0.0"
+    implementation 'com.google.android.libraries.maps:maps:3.1.0-beta'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.5'
 
 
